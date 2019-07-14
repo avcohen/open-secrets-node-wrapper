@@ -1,0 +1,56 @@
+{
+    "name": "opensecrets-node-wrapper",
+    "version": "1.0.0",
+    "description": "Node.js Wrapper for OpenSecrets.org API",
+    "main": "lib/index.js",
+    "babel": {
+        "presets": [
+            [
+                "@babel/preset-env",
+                {
+                    "targets": {
+                        "node": "current"
+                    }
+                }
+            ]
+        ]
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src --out-dir lib"
+    },
+    "author": "aaron v cohen",
+    "license": "ISC",
+    "dependencies": {
+        "node-fetch": "^2.6.0",
+        "query-string": "^6.8.1",
+        "xtend": "^4.0.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.5.0",
+        "@babel/core": "^7.5.4",
+        "@babel/preset-env": "^7.5.4",
+        "eslint": "^6.0.1",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "1.18.2"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/avcohen/open-secrets-node-wrapper.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/avcohen/open-secrets-node-wrapper/issues"
+    },
+    "homepage": "https://github.com/avcohen/open-secrets-node-wrapper#readme"
+}
