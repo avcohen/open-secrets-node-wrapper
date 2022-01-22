@@ -28,7 +28,7 @@
     "author": "aaron v cohen",
     "license": "ISC",
     "dependencies": {
-        "node-fetch": "^2.6.1",
+        "node-fetch": "^3.1.1",
         "query-string": "^6.8.1",
         "xtend": "^4.0.2"
     },
